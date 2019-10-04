@@ -8,29 +8,49 @@ html {
   padding: 20px;
 }
 
-.bg {
-  /* background-image: url("img_girl.jpg"); */
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 span {
   color: orange;
   font-style: italic;
   font-weight: bolder;
 }
 
-body {
+body{
   background-image: url("http://anpsthemes.com/kataleya/pizza-place/wp-content/uploads/2014/07/1-1140x360.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
+  background-size:cover;
 }
 h1 {
-  color: white;
-  font-weight: bolder
+  color: black;
+  font-weight: bolder; 
+  text-align: center;   
+  font-family: 'Permanent Marker', cursive;
+  
+}
+
+.img{
+    padding:10%;
+    /* margin-right:15%; */
+}
+
+.h1{
+ padding: 10%;   
+}
+
+#home{
+    display:flex;
+    border:1px solid grey;
+    background-color: #FFBFB7;
+    height:100vh;
+    opacity:0.9;
+    /* width:60%; */
+    /* box-shadow: 5px 5px black; */
+}
+b.g{
+
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 li {
@@ -45,9 +65,10 @@ ul {
 }
 li a:hover {
   color: white;
+  font-style: italic;
   cursor: pointer;
   text-decoration-color: orange;
-  font-size: large;
+  /* font-size: large; */
   font-weight: bolder;
 }
 a {
@@ -58,6 +79,10 @@ a {
 nav {
   width: 100vh;
   background-color: transparent;
-  padding: 30px;
+  padding: 20px;
 }
 
+li img{
+    width:115px;
+    height: 95%;
+}
