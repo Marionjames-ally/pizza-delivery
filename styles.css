@@ -1,0 +1,63 @@
+#main-page,
+html {
+  height: 100%;
+  text-align: center;
+  overflow: inherit;
+}
+.confuse {
+  padding: 20px;
+}
+
+.bg {
+  /* background-image: url("img_girl.jpg"); */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+span {
+  color: orange;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+body {
+  background-image: url("http://anpsthemes.com/kataleya/pizza-place/wp-content/uploads/2014/07/1-1140x360.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+h1 {
+  color: white;
+  font-weight: bolder
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 2vh;
+}
+ul {
+  margin: 0;
+  display: flex;
+  padding: 0;
+}
+li a:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration-color: orange;
+  font-size: large;
+  font-weight: bolder;
+}
+a {
+  padding: 2vw;
+  color: white;
+  text-decoration: none;
+}
+nav {
+  width: 100vh;
+  background-color: transparent;
+  padding: 30px;
+}
+
