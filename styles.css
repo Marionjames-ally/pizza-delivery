@@ -14,9 +14,8 @@ span {
   font-weight: bolder;
 }
 
-body {
-  background-image: url("http://anpsthemes.com/kataleya/pizza-place/wp-content/uploads/2014/07/1-1140x360.jpg") linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-  background-blend-mode: overlay;;
+body{
+  background-image: url("https://previews.123rf.com/images/karandaev/karandaev1506/karandaev150600430/41539714-italian-pizza-with-cheese-tomatoes-olives-basil-and-red-wine-on-wooden-table-top-view-with-copy-spac.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -55,11 +54,11 @@ h1:hover {
 
 #home {
   display: inline;
-  background-color: #ffbfb7;
-  opacity: 0.9;
-  background-color: rgba(0,0,0,0.5);
+  /* background-color: #ffbfb7; */
+  /* opacity: 0.9; */
+  /* background-color: rgba(0,0,0,0.5); */
   z-index: 2;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   /* width:60%; */
   /* box-shadow: 3px 3px 6px black; */
 }
@@ -101,7 +100,7 @@ p{
 
 .links{
   /* border-top: 3px solid brown; */
-  box-shadow: 2px 2px 15px solid green;
+  /* box-shadow: 2px 2px 15px solid green; */
   font-weight:bolder;
   color:black;
   border: 6px 6px solid green;
@@ -167,9 +166,10 @@ nav{
 }
 #menu{
   margin:20px;
-  border: 1px solid green;
-  box-shadow: 3px 3px 10px solid black;
+  /* border: 1px solid green; */
+  box-shadow: 3px 3px 5px solid black;
   margin-top:90px;  
+  background-color: white;
 }
 
 
