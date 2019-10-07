@@ -14,7 +14,7 @@
 
 -the user should be able to pick the pizza size he/he wants
 
--the user should be able to pick the number of pizza's he/she wants 
+-the user should be able to pick the number of pizza's he/she wants
 
 #### BDD
 
