@@ -6,10 +6,9 @@ ul {
   background-color: lightgray;
 }
 
-
 li {
   float: right;
-  float:right;
+  float: right;
   padding: 30px;
 }
 
@@ -25,23 +24,27 @@ li a {
 li a:hover {
   background-color: grey;
   text-decoration: none;
-  color:white;
+  color: white;
 }
-.home{
+.home {
   height: 100%;
   display: flex;
   margin-top: 50px;
+  position: relative;
 }
 
-#home{
+#home {
   /* background-image: url('http://marcospattaya.com/assets/images/pizza-slider.jpg') */
   background-color: lightgray;
 }
-body{
-  background-image: url('http://marcospattaya.com/assets/images/pizza-slider.jpg');
-
+body {
+  background-image: url("http://marcospattaya.com/assets/images/pizza-slider.jpg");
 }
 
+body,
+html {
+  height: 100%;
+}
 .bg {
   height: 120%;
   background-position: center;
@@ -52,11 +55,11 @@ body{
 * {
   box-sizing: border-box;
 }
-.img{
+.img {
   padding: 5%;
 }
 .menu {
-  font-size:xx-small;
+  font-size: xx-small;
   background-color: lightgray;
 }
 
@@ -78,41 +81,50 @@ hr.new:after {
   background: white;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-p{
+p {
   margin-left: 10%;
 }
 
-.p{
+.p {
   padding: 0%;
-  float:left;
+  float: left;
 }
-h3, h5, h6 {
-  text-align:center;
+h3,
+h5,
+h6 {
+  text-align: center;
 }
-.image{
+.image {
   float: right;
 }
-figcaption{
+figcaption {
   text-align: center;
   font-weight: bold;
-  
 }
 
-form{
+form {
   align-content: center;
 }
 
-input{
+input {
   font-weight: bold;
-  margin-right: 200px
+  margin-right: 200px;
 }
-#order{
-  margin-top:50px;
+#order {
+  margin-top: 50px;
   margin-bottom: 70px;
+  background-color: lightgray;
+}
+.numberOfPizza {
+  margin-right: 4%;
+  width: 48%;
+}
+.sizeOfPizza {
+  width: 48%;
 }
 
 .row {
@@ -131,8 +143,9 @@ input{
 }
 
 #feedback {
-  background-image: url("http://anpsthemes.com/kataleya/pizza-place/wp-content/uploads/2014/07/1-1140x360.jpg");
+  /* background-image: url("http://anpsthemes.com/kataleya/pizza-place/wp-content/uploads/2014/07/1-1140x360.jpg");/ */
   align-content: center;
+  background-color: lightgray;
 }
 :placeholder-shown {
   background-color: transparent;
