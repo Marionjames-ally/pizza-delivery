@@ -32,13 +32,15 @@
 
 ## Technologies used
 
-*HTML 5
+-HTML 5
 
-*Bootsrap 4.3
+-Bootsrap 4.3
 
-*Javascript
+-Javascript
 
-*css
+-css
+
+-jquery
 
 ## License
 

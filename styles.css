@@ -160,6 +160,10 @@ input {
   /* background-image: url("http://anpsthemes.com/kataleya/pizza-place/wp-content/uploads/2014/07/1-1140x360.jpg");/ */
   align-content: center;
   background-color: lightgray;
+  height: auto;
+  width: 100%;
+  /* margin-top: 50%; */
+ /* padding:30%; */
 }
 :placeholder-shown {
   background-color: transparent;
