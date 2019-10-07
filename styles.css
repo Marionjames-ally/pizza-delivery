@@ -95,3 +95,12 @@ figcaption{
 form{
   align-content: center;
 }
+
+input{
+  font-weight: bold;
+  margin-right: 200px
+}
+#order{
+  margin-top:50px;
+  margin-bottom: 70px;
+}
