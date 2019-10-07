@@ -3,7 +3,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(245, 245, 245);
+  background-color: lightgray;
 }
 
 
@@ -33,6 +33,15 @@ li a:hover {
   margin-top: 50px;
 }
 
+#home{
+  /* background-image: url('http://marcospattaya.com/assets/images/pizza-slider.jpg') */
+  background-color: lightgray;
+}
+body{
+  background-image: url('http://marcospattaya.com/assets/images/pizza-slider.jpg');
+
+}
+
 .bg {
   height: 120%;
   background-position: center;
@@ -48,6 +57,7 @@ li a:hover {
 }
 .menu {
   font-size:xx-small;
+  background-color: lightgray;
 }
 
 hr.new {
