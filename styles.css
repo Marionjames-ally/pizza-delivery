@@ -104,3 +104,36 @@ input{
   margin-top:50px;
   margin-bottom: 70px;
 }
+
+.row {
+  padding: 3%;
+}
+.text1 {
+  margin-right: 4%;
+  width: 48%;
+}
+.text2 {
+  width: 48%;
+}
+.message {
+  width: 100%;
+  height: 200px;
+}
+
+#feedback {
+  background-image: url("http://anpsthemes.com/kataleya/pizza-place/wp-content/uploads/2014/07/1-1140x360.jpg");
+  align-content: center;
+}
+:placeholder-shown {
+  background-color: transparent;
+  /* color:white; */
+}
+::placeholder {
+  padding: 0;
+  /* margin-top: 0%; */
+  color: black;
+}
+
+.contacts h2 {
+  color: black;
+}
