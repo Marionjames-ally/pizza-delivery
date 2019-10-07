@@ -62,6 +62,9 @@ html {
   font-size: xx-small;
   background-color: lightgray;
 }
+#menu{
+  padding: 3%;
+}
 
 hr.new {
   overflow: visible; /* For IE */
