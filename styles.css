@@ -58,6 +58,8 @@ html {
 
 * {
   box-sizing: border-box;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: large;
 }
 .img {
   padding: 5%;
