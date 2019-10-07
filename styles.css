@@ -26,11 +26,15 @@ li a:hover {
   text-decoration: none;
   color: white;
 }
+
+nav{
+  position: static;
+}
 .home {
   height: 100%;
   display: flex;
   margin-top: 50px;
-  position: relative;
+  /* position: relative; */
 }
 
 #home {
@@ -64,6 +68,7 @@ html {
 }
 #menu{
   padding: 3%;
+  margin-top: 3%;
 }
 
 hr.new {
@@ -96,10 +101,14 @@ p {
   padding: 0%;
   float: left;
 }
-h3,
-h5,
+h3
+,
 h6 {
   text-align: center;
+}
+
+h3{
+  padding: 2%;
 }
 .image {
   float: right;
