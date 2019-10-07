@@ -78,7 +78,20 @@ p{
 
 .p{
   padding: 0%;
+  float:left;
 }
 h3, h5, h6 {
   text-align:center;
+}
+.image{
+  float: right;
+}
+figcaption{
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+form{
+  align-content: center;
 }
