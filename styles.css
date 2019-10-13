@@ -213,11 +213,12 @@ input {
   /* border-radius: 50%; */
   }
 
-  footer{
+  .footer{
     background-color: #000000;
     color:white;
+    margin:0;
   }
-
+  
   .email{
     width: 60%;
     height: 30px;
