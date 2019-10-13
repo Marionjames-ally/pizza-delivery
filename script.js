@@ -448,7 +448,7 @@ $(function() {
 
   //Pick Up
   $(".delivernot").click(function() {
-    alert('Sorry there are no pick up stations near you')
+    alert("Sorry there are no pick up stations near you");
   });
 
   //Scrollify
@@ -457,8 +457,6 @@ $(function() {
   });
 });
 
-$("#deliver").click(function(){
-  alert('Thankyou' +  ""  + 'your pizza will be delivered in 20 minutes');
-
-}
-  );
+$("#deliver").click(function() {
+  alert("Thankyou" + "" + "your pizza will be delivered in 20 minutes");
+});
