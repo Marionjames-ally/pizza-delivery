@@ -139,6 +139,7 @@
                     <button type="submit" class="btn btn-success checkout" id="checkout">
                         Checkout
                     </button>
+                    
                 </a>
     
             </div>
@@ -151,11 +152,32 @@
         <h2 class="text-center summary">Hello there, your order is as follows:</h2>
         <ol id="list" class="text-center sum">
         </ol>
+        <div class="d-block mx-auto text-center">
+            <button class='deliver'>Delivery</button>
+            <button class='delivernot'>Pick Up</button>
+        </div>
+        <div class="cdata-overlay">
+            <div class="customerdata row">
+                <div class="col-sm-3"></div>
+                <form action="" class="form-group col-sm-6 data">
+                    <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                    <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                    <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                    <button id="deliver"  class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                </form>
+                
+    
+                <div class="col-sm-3"></div>
+            </div>
+           
+        </div>
     
       </div>
+      
       </div>
       </div>
-      </div>
+
+     
       <br>
       <footer class="footer text-center">
       <form name="add" id="add">
