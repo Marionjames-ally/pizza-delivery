@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="styles.css" type="text/css" />
     <link rel="stylesheet" href="bootstrap.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-
-    <title>pizza</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>pizza</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <!-- <div class="jumbotron"> -->
         <div id="home">
           <div class="home">
@@ -31,6 +31,7 @@
           <div class="img">
             <img
               src="https://demo.gridgum.com/templates/bootstrap-templates/22355/images/slide01.png"
+              width="100%"
               alt=""
               style="background-image: url('https://demo.gridgum.com/templates/bootstrap-templates/22355/images/slider_bg.png')"
             />
@@ -39,52 +40,56 @@
       
       <div id="menu">
         <div class="menu">
-          <h3>Welcome to italian pizza</h3>
-          <hr class="new" />
+          <img src="https://kamauvick.github.io/Pizza-App/images/sec/ab1.png" width="400px" height="400px" alt="">
+          
           <h6>
             Italian <span> pizza</span> is an outstanding, mouthwatering and
-            professional pizza inn and drinks website. Grab everyone's attention
-            and make their bellies scream with happiness by oddering from us.
+            professional pizza inn and drinks website. <br>
+            <a href="#menuu"><button class="btn btn-primary">Menu</button></a>
           </h6>
-          <br />
-          <div class="flex">
-            <img
-              src="https://demo.gridgum.com/templates/bootstrap-templates/22355/images/home01.jpg"
-              alt=""
-            />
-            <p>
-              We are located in the werstern part of Nairobi. We do our
-              deliveries in all parts of Nairobi at an affordable price but to
-              avoid paying the delivery cash you can collect your food at our
-              picking spot in the CBD area.We treat our customers with utmost
-              respect and fairness.Welcome all.
-            </p>
+          <br />         
           </div>
-          <div class="services">
-            <h3>Services</h3><hr class="new">
-            <!-- <img src="https://demo.gridgum.com/templates/bootstrap-templates/22355/images/banner1.png" alt=""><br> -->
-            <!-- <h3>What's New</h3><hr class="new"> -->
-            <figure class="image">
-            <img src="https://www.halfbakedharvest.com/wp-content/uploads/2019/05/Sweet-and-Spicy-Tomato-Basil-Pepperoni-Pizza-1-700x1050.jpg" alt="" height="300px" width="300px">
-            <figcaption class="image">peperoni pizza</figcaption>
-            </figure>
-            <figure>
-            <img src="https://www.rabbitandwolves.com/wp-content/uploads/2018/06/DSC_0892-1.jpg" alt="" height="300px" width="300px">
-            <figcaption>vegan pizza </figcaption>
-            </figure>
-            <!-- <div class="p">
-            <p>PIZZA DELIVERY IN EASTLANDS</p>
-            <p>HOME BAKING PIZZA SERVICE</p>
-            <p>PIZZA DELIVERY IN WESTLANDS</p>
-            <p>ORDER PIZZA ONLINE</p>
-            <p>PIZZA DEALS</p>
-            <p>PIZZA MENUS</p>
-            <p>ITALIAN PIZZA</p>
-          </div> -->
-          
-        </div>
       </div>
+      <div id="menuu">
+        
+            <h3>MENU</h3>
+            <div class="menuu">
+                <div class="col-md-4">
+                  <div class="row">
+            <figure>
+            <img src="https://www.freeiconspng.com/uploads/pizza-png-17.png" height="300px" alt="">
+            <figcaption>Regular pizza <br>
+              @Ksh 450
+            </figcaption>
+          </figure>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+          <figure>
+          <figure>
+            <img class="regular" src="http://www.pngplay.com/wp-content/uploads/2/Top-View-Pizza-Transparent-Free-PNG.png" height="300px" alt="">
+            <figcaption>Medium pizza <br>
+              @Ksh 850
+            </figcaption>
+          </figure>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+          <figure>
+              <img src="https://i.ya-webdesign.com/images/pizza-clip-transparent-background-17.png" height="300px" alt="">
+              <figcaption>Large pizza <br>
+                @Ksh 1000
+              </figcaption>
+            </figure>
+            </div>
+            </div>
+          </div>                   
+      </div>
+      
       <div id="order">
+        <div class="container-fluid">
         
     <h1 class="text-center" id="order-pizza">Order Pizza</h1>
     <div class="form-group row">
@@ -101,9 +106,9 @@
                 </select>
                 <label>Chose your preferred Size:</label>
                 <select class="custom-select custom-select-md mb-3" id="size" required>
-                    <option value="regular">Regular</option>
-                    <option value="medium">Medium</option>
-                    <option value="large">Large</option>
+                    <option value="regular">Regular @ sh 450</option>
+                    <option value="medium">Medium @ sh 850 </option>
+                    <option value="large">Large @ sh 1000</option>
                 </select>
                 <label for="crust">Choose your favorite Crust:</label>
                 <select class="custom-select custom-select-md mb-3" id="crust" required>
@@ -130,27 +135,40 @@
                 </select>
                 <label for="number">Number of Pizza's</label>
                 <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required><br>
-                <input type="submit" class="submit" id="submit" placeholder="order" >
+                <a href="#summary">
+                    <button type="submit" class="btn btn-success checkout" id="checkout">
+                        Checkout
+                    </button>
+                </a>
+    
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+    
+    <div class="order-summary" id="sum-order">
+        <h1 class="text-center" id="summary">Order Summary</h1>
+        <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+        <ol id="list" class="text-center sum">
+        </ol>
+    
+      </div>
       </div>
       </div>
       </div>
       <br>
-      <div id="feedback">
-        <h3>CONTACT US</h3><hr class="new">
-      <div class="container">
-        <div class="row">
-          <input class="text1" placeholder="Name..." type="text" required/><br />
-          <input class="text2" placeholder="Email..." type="text" required/><br /><br />
-        </div>
-        <input class="message" placeholder="Your message here..." type="text" required/>
-        <br />
-        <button type="submit" onclick="submission" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-    <footer>
-      <img src="" alt="">
-      <p>&copy;2019 Marion James</p></footer>
-    <script src="./script.js"></script>
+      <footer class="footer text-center">
+      <form name="add" id="add">
+        Contact us
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+          <input type="text" class="email" placeholder="email.."><br>
+        <i class="fa fa-commenting" aria-hidden="true"></i>
+          <input type="text" class="comment" placeholder="Leave a comment..">
+          <div class="btn btn-danger text-center" type="submit" value="ADD" >submit</div>
+      </form>
+      <p class="license text-center">copyright &copy;2019 Marion James</p></footer>
+    
     <script src="jquery.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

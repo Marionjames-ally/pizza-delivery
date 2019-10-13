@@ -28,7 +28,8 @@ li a:hover {
 }
 
 nav{
-  position: static;
+  position: relative;
+  background: tr
 }
 .home {
   height: 100%;
@@ -54,6 +55,7 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: fixed;
 }
 
 * {
@@ -67,10 +69,35 @@ html {
 .menu {
   font-size: xx-small;
   background-color: lightgray;
+  display:flex;
 }
 #menu{
   padding: 3%;
   margin-top: 3%;
+  /* display: flex; */
+}
+#menuu{
+  background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX2068010.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ffffff;
+
+}
+
+.regular{
+  float: left;
+}
+
+.menuu{
+  /* background-color: #ffffff; */
+  display: flex;
+}
+.row{
+  justify-content: 
+  space-around;
+}
+.card{
+  background-color:red; 
 }
 
 hr.new {
@@ -107,10 +134,12 @@ h3
 ,
 h6 {
   text-align: center;
+  padding: 10%;
 }
 
 h3{
   padding: 2%;
+  color: white;
 }
 .image {
   float: right;
@@ -118,6 +147,7 @@ h3{
 figcaption {
   text-align: center;
   font-weight: bold;
+  color: white;
 }
 
 form {
@@ -129,9 +159,11 @@ input {
   margin-right: 200px;
 }
 #order {
+  /* margin-left: 50px; */
   margin-top: 50px;
   margin-bottom: 70px;
   background-color: lightgray;
+  align-items: center;
 }
 .numberOfPizza {
   margin-right: 4%;
@@ -152,29 +184,45 @@ input {
   width: 48%;
 }
 .message {
-  width: 100%;
-  height: 200px;
+  border:2px solid #000000;
+  background:transparent;
+  /* box-shadow: 2px 2px 2px 5px solid grey; */
+  /* border-radius:50%; */
+  width: 500px;
+  height: 10px;
+  padding: 3%;
+  /* justify-content: center; */
 }
 
-#feedback {
-  /* background-image: url("http://anpsthemes.com/kataleya/pizza-place/wp-content/uploads/2014/07/1-1140x360.jpg");/ */
-  align-content: center;
-  background-color: lightgray;
-  height: auto;
-  width: 100%;
-  /* margin-top: 50%; */
- /* padding:30%; */
-}
+
 :placeholder-shown {
   background-color: transparent;
-  /* color:white; */
+  color: black;
+
 }
 ::placeholder {
   padding: 0;
-  /* margin-top: 0%; */
-  color: black;
-}
+ }
 
 .contacts h2 {
   color: black;
 }
+.btn{
+  margin-top:2%; 
+  align-items: center;
+  /* border-radius: 50%; */
+  }
+
+  footer{
+    background-color: #000000;
+    color:white;
+  }
+
+  .email{
+    width: 60%;
+    height: 30px;
+  }
+  .comment{
+    height: 80px;
+    width:40%;
+  }
