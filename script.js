@@ -27,9 +27,12 @@ $(function() {
     let number = $("#number").val();
     console.log(size);
 
+    event.preventDefault()
+
     //Function order
     let order = (f, s, c, t, n, total) => {
       return { f, s, c, t, n, total };
+
     };
 
     //check price
@@ -444,6 +447,8 @@ $(function() {
     $(".deliver").hide(1000);
     $(".delivernot").hide(1000);
     $(".cdata-overlay").slideDown();
+
+    event.preventDefault()
   });
 
   //Pick Up
@@ -458,5 +463,5 @@ $(function() {
 });
 
 $("#deliver").click(function() {
-  alert("Thankyou" + "" + "your pizza will be delivered in 20 minutes");
+  alert("Thankyou" +  ""  + " your pizza will be delivered in 20 minutes");
 });
